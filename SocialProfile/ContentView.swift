@@ -21,7 +21,7 @@ struct ContentView: View {
                         .resizable()
                         .scaledToFit()
                         .frame(height: 150)
-                        .padding(.horizontal)
+                        .padding(.vertical)
                     HStack {
                         Text("$")
                             .font(.title)
